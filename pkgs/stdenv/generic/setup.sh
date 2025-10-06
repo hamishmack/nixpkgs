@@ -25,7 +25,7 @@ if [[ ${NIX_DEBUG:-0} -ge 6 ]]; then
     set -x
 fi
 
-if [[ -n "${NIX_ATTRS_JSON_FILE:-}" ]]; then
+if  [[ -n "${NIX_ATTRS_JSON_FILE:-}" ]]; then
     __structuredAttrs=1
     echo "structuredAttrs is enabled"
 
